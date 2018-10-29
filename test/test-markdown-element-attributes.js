@@ -3,7 +3,7 @@ Reveal.addEventListener( 'ready', function() {
 	QUnit.module( 'Markdown' );
 
 	QUnit.test( 'Vertical separator', function( assert ) {
-		assert.strictEqual( document.querySelectorAll( '.reveal .slides>section>section' ).length, 4, 'found four slides' );
+		assert.strictEqual( document.querySelectorAll( '.reveal .slides>section>section' ).length, 5, 'found four slides' );
 	});
 
 	QUnit.test( 'Attributes on element header in vertical slides', function( assert ) {
