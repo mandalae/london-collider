@@ -18,7 +18,7 @@ def run
 end
 
 run do
-  @driver.get 'http://skaaning.ninja'
+  @driver.get 'http://kevin.skaaning.ninja'
   expect(@driver.title).to eql "Panoptic culture"
   # @driver.save_screenshot('docker_image.png')
 end
